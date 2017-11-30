@@ -12,9 +12,12 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'https://github.com/kien/ctrlp.vim.git'
 Plugin 'https://github.com/scrooloose/nerdtree'
 Plugin 'https://github.com/tpope/vim-surround'
+"Plugin 'maksimr/vim-jsbeautify'
+"Plugin 'https://github.com/elzr/vim-json.git'
 set number
 set showcmd
 syntax on
-set list
+" set list
 set ts=4
 set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:␣
+set shiftwidth=4
